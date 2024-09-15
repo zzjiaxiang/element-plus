@@ -9,7 +9,7 @@
     display: inline-flex;
     align-items: center;
     max-width: 100%;
-    margin: 2px 0 2px 6px;
+    margin-left: 6px;
     text-overflow: ellipsis;
     background: $background-color;
 
@@ -149,6 +149,7 @@
     top: 50%;
     transform: translateY(-50%);
     display: flex;
+    gap: 6px;
     flex-wrap: wrap;
     line-height: normal;
     text-align: left;
